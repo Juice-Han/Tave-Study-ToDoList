@@ -13,7 +13,7 @@ const FilterButton = (props: FilterButtonProps) => {
     <button
       className={
         "text-sm px-4 py-2 leading-normal rounded-xl text-white hover:cursor-pointer hover:opacity-90" +
-        clsx(" ", isActive ? "bg-blue-400" : "bg-blue-800")
+        clsx(" ", isActive ? "bg-blue-800" : "bg-blue-400")
       }
       onClick={() => handleFilterChange(title)}
     >
